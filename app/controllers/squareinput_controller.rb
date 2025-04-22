@@ -1,6 +1,6 @@
-class SquareController < ApplicationController
+class SquareinputController < ApplicationController
 
-  def square_input
+  def square
 
   render( { :template => "/input_templates/square"})
   end 

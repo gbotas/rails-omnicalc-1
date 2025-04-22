@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   
-get("/", { :controller => "square", :action => "square_input" })
+get("/", { :controller => "squareinput", :action => "square" })
 
 
-get("/square/new", { :controller => "square", :action => "square_input"})
+get("/square/new", { :controller => "squareinput", :action => "square"})
+
+get("/square/results", { :controller => "squareresult", :action => "square"})
 
 end 
