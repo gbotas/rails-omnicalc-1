@@ -15,4 +15,8 @@ get("/payment/new", { :controller => "paymentinput", :action => "payment"})
 
 get("/payment/results", { :controller => "paymentresult", :action => "payment"})
 
+get("/random/new", { :controller => "randominput", :action => "random"})
+
+get("/random/results", { :controller => "randomresult", :action => "random"})
+
 end 
